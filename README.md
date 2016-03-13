@@ -1,5 +1,5 @@
 # jaxbin
-MathJax pastebin.
+MathJax pastebin :book: 
 
 ### Setting up
 
