@@ -54,3 +54,7 @@ label {
 .bin {
     margin-top: 2em;
 }
+
+pre {
+    display: inline;
+}
