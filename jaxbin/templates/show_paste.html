@@ -6,9 +6,14 @@
         Created on {{paste.created_date}}.
     </div>
     <div class="bin">
-        {{paste.content}}
+        {{ paste.content }}
     </div>
 {% else %}
     <h2 class="halfOpacity centerText">404 Not Found</h2>
 {% endif %}
+
+{% endblock %}
+
+{% block js %}
+<script src="/static/js/show_paste.js"></script>
 {% endblock %}
