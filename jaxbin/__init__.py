@@ -29,3 +29,14 @@ def showBin(bin_id):
     bin_obj = Bin.select().where(Bin.p_id == bin_id).first()
 
     return render_template("show_paste.html", paste=bin_obj)
+
+
+# Open & close db connections
+@app.before_request
+def _db_connect():
+    db.connect()
+
+@app.teardown_request
+def _db_close(exc):
+    if not db.is_closed():
+        db.close()
