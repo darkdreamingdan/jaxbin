@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <head>
         <title>JaxBin</title>
@@ -6,9 +7,10 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
         <script src="/static/js/materialize.min.js"></script>
-        <link href="/static/css/materialize.min.css" rel="stylesheet" type="text/css" />
+        <link href="/static/css/materialize.min.css" rel="stylesheet">
 
-        <link href="/static/css/app.css" rel="stylesheet" type="text/css" />
+        <link href="/static/css/app.css" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
 
         {% block css %}
         {% endblock %}
@@ -16,6 +18,13 @@
 
     <body>
         <div class='container'>
+            <div class="header">
+                <a href="/">
+                    <h2 class="title">JaxBin</h2>
+                </a> &nbsp;
+                <a target="_blank" href="//github.com/cydrobolt/jaxbin"><i class="fa fa-github fa-3x"></i></a>
+            </div>
+
             {% block body %}
             {% endblock %}
         </div>
