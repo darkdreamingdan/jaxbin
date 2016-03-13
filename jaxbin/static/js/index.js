@@ -8,7 +8,7 @@ $(function () {
         MathJax.Hub.queue.Push(["Typeset", MathJax.Hub, "renderJax"]);
     });
 
-    var hostname = 'localhost:5000';
+    var hostname = window.location.hostname;
 
     $("#createBin").click(function () {
         var binData = $('#jaxInput').val();
