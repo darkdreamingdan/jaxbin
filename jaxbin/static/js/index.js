@@ -21,7 +21,7 @@ $(function () {
             },
 
             success: function (data) {
-                $("#binLink").html("Bin Created: <a href='/bin/" + data + "'>http://" + hostname + "/bin/" + data + "</a>");
+                $("#binLink").html("Bin Created: <a target='_blank' href='/bin/" + data + "'>http://" + hostname + "/bin/" + data + "</a>");
             },
 
             error: function () {
