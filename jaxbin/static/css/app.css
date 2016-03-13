@@ -1,0 +1,44 @@
+.jaxInput {
+    height: 20em !important;
+}
+
+.floatLeft {
+    float: left;
+}
+.floatRight {
+    float: right;
+}
+
+h4 {
+    padding-top: 1.5em;
+}
+
+.submitBtn {
+    margin-top: 1.3em;
+}
+
+.previewLoading {
+    opacity: 0.5;
+}
+
+.halfOpacity {
+    opacity: 0.5;
+}
+
+.centerText {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 2em;
+}
+
+.binLinkWrapper, .submitBtn {
+    display: inline;
+    margin-left: 0.5em;
+}
+
+.bin {
+    margin-top: 2em;
+}
